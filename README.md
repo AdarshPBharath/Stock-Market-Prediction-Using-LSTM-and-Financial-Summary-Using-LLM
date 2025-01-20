@@ -1,20 +1,23 @@
 Stock Market Prediction and News Summarization
 This project leverages machine learning and natural language processing to predict stock prices and summarize recent financial news related to a selected stock. The application provides insights into the stock's historical and forecasted prices, as well as recent news summaries, through an interactive Streamlit-based web interface.
 
+How to use:
+Firstly you need the API keys from HuggingFace and NewAPI and you also need a Streamlit account to host this web application. You need to add you APIs to the code and run the code using "streamlit run {name of your file}". After that you will get a UI that asks for the stock ticker, type any ticker and see your predicition results visualized using graph and a financial summary of recent news of the stock.
 Features
-1. Stock Price Prediction:
+
+Stock Price Prediction:
   a.Historical stock price visualization.
   b.LSTM-based predictive modeling to forecast stock prices.
   c.Root Mean Squared Error (RMSE) calculation to evaluate model performance.
 
-2. News Summarization:
-  Fetches recent financial news using News API.
-  Summarizes news articles using a language model from Hugging Face Hub.
-  Displays the latest articles and their summaries.
+News Summarization:
+  a.Fetches recent financial news using News API.
+  b.Summarizes news articles using a language model from Hugging Face Hub.
+  c.Displays the latest articles and their summaries.
 
-3.Interactive Dashboard:
-  Simple and user-friendly interface powered by Streamlit.
-  Real-time data retrieval and visualization.
+Interactive Dashboard:
+  a.Simple and user-friendly interface powered by Streamlit.
+  b.Real-time data retrieval and visualization.
   
 Tech Stack
   Frontend: Streamlit
